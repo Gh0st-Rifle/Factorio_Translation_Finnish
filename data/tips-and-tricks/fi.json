@@ -1,0 +1,41 @@
+
+[
+  {
+    "title": "Pinon siirto",
+    "image": "stack-transfer.png",
+    "text": "Painettaessa \"__CONTROL__stack-transfer__\" siirretään kerralla koko esine pino. Tämä siirto on myös tarpeeksi järkevä päättelemään minne siirto kulloinkin tehdään. Esimerkiksi, kun siirretään näin __ITEM__iron-axe__ päävarastosta, se menee automaattisesti työkalu tilaan." },
+  {
+    "title": "Varasto siirto",
+    "image": "inventory-transfer.png",
+    "text": "Painettaessa \"__CONTROL__inventory-transfer__\" siirretään kerralla kaikki kyseistä esinetyyppiä olevat pinot. Tätä voidaan käyttää esimerkiksi siirtämään kaikki siirtohihnat puuarkusta __ENTITY__wooden-chest__ päävarastoon."
+  },
+  {
+    "title": "Nopea kokonaisuuden siirto",
+    "image": "fast-entity-transfer.png",
+    "text": "Painettaessa \"__CONTROL__fast-entity-transfer__\" siirretään kokonaisuuden sisältö ilman sen käyttöliittymän avaamista. Jos pelaajan käsi on tyhjä, siirto tapahtuu pelaajalle päin, muussa tapauksessa pelaajalta kohteena olevaan kokonaisuuteen päin. Tämä voi olla erityisesti hyödyllinen pelin alussa syöttäessä hiiltä uuneihin __ENTITY__stone-furnace__, ja hiilivoimalla toimiviin kaivosporiin __ENTITY__burner-mining-drill__, yms."
+  },
+  {
+    "title": "Pikavalintojen käyttö",
+    "image": "quickbar.png",
+    "text": "Jokaiselle pikavalintanapille on pikanäppäin, jolla kyseisessä tilassa olevan esineen saa haettua osoittimen valinnaksi. Jos sinulla on jo jokin esine valittuna pikavalinnoista, se palaa kohtaan josta se oli otettu."
+  },
+  {
+    "title": "Tyhjennä osoittimen valinta",
+    "text": "Painettaessa \"__CONTROL__clean-cursor__\" siirretään esine(pino) osoittimen valinnasta takaisin varastoon / pikavalintoihin."
+  },
+  {
+    "title": "Lisätiedot",
+    "image": "show-info.png",
+    "text": "Painettaessa \"__CONTROL__show-info__\" asetetaan lisätietonäkymä päälle."
+  },
+  {
+    "title": "Rakentaminen juostessa",
+    "image": "building-while-running.png",
+    "text": "Nopein keino rakentaa jotain peräkkäin, kuten siirtohihnoja, __ENTITY__pipe__ tai siirtäjiä on pitää pohjassa \"__CONTROL__build__\" kohdassa josta haluat aloittaa rakentamisen ja juosta haluttuun suuntaan."
+  },
+  {
+    "title": "Suodatus",
+    "image": "filter.png",
+    "text": "Painamalla \"__CONTROL__set-filter__ voidaan varata pikavalintanappi tiettyä esinettä varten. Tällöin muita esineitä ei aseteta kyseiselle napille ja napille varatut esineet asetetaan ensisijaisesti niille varattuun paikkaan."
+  }
+]
